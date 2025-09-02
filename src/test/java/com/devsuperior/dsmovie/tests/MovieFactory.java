@@ -1,6 +1,5 @@
 package com.devsuperior.dsmovie.tests;
 
-import com.devsuperior.dsmovie.dto.MovieDTO;
 import com.devsuperior.dsmovie.entities.MovieEntity;
 
 public class MovieFactory {
@@ -10,8 +9,9 @@ public class MovieFactory {
 		return movie;
 	}
 	
-	public static MovieDTO createMovieDTO() {
+	public static MovieEntity createMovie(String title) {
 		MovieEntity movie = createMovieEntity();
-		return new MovieDTO(movie);
+		movie.setTitle(title);
+		return movie;
 	}
 }
