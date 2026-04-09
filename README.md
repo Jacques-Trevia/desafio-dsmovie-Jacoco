@@ -324,15 +324,15 @@ Testes de repositório (DataJpaTest)
 ✅ Integração com CI/CD (falhar build se cobertura < meta)
 
 ## 🎯 Por que Cobertura de Código é Importante?
-```
-Benefício:	Descrição
-Qualidade:	Identifica partes do código não testadas
-Confiança:	Permite refatorar com segurança
-Documentação:	Testes documentam o comportamento esperado
-Manutenção:	Facilita a identificação de regressões
-Profissionalismo:	Diferencial em processos seletivos
-Importante: Cobertura alta não garante código livre de bugs, mas é um forte indicador de disciplina e boas práticas.
-```
+
+| Benefício | Descrição |
+|-----------|-----------|
+| **Qualidade** | Identifica partes do código não testadas |
+| **Confiança** | Permite refatorar com segurança |
+| **Documentação** | Testes documentam o comportamento esperado |
+| **Manutenção** | Facilita a identificação de regressões |
+| **Profissionalismo** | Diferencial em processos seletivos |
+
 ---
 
 ## 📜 Licença
